@@ -7,13 +7,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CoreCodeCamp.Controllers
 {
-  [Route("api/[controller]")]
-  public class ValuesController
-  {
-
-    public string[] Get()
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ValuesController : ControllerBase
     {
-      return new[] { "Hello", "From","Pluralsight" };
+        [HttpGet]
+        public string[] Get()
+        {
+            return new[] { "Hello", "From", "Pluralsight" };
+        }
     }
-  }
 }
