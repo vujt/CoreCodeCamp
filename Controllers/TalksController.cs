@@ -115,8 +115,6 @@ namespace CoreCodeCamp.Controllers
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Database Failure");
             }
-
-            return BadRequest();
         }
 
         // PUT api/<TalksController>/5
