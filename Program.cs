@@ -17,7 +17,7 @@ namespace CoreCodeCamp
         }
 
         /// <summary>
-        /// test
+        /// Johnny test
         /// </summary>
         /// <param name="args"></param>
         /// <returns></returns>
